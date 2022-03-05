@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Advice Generator</title>
   </head>
 
   <body>
     <main id="container">
-      <section id="advice_no">Title</section>
-      <section id="qoute">qoute</section>
+      <section id="author">Advice Generator</section>
+      <section id="quote">
+        Click the dice icon to generate mindful quotes
+      </section>
       <span id="hr_line"
         ><img
           src="./pattern-divider-desktop.svg"
           alt="pattern-divider"
           sizes="100"
       /></span>
-      <div id="btn"><img src="./icon-dice.svg" alt="dice-icon" /></div>
+      <div id="btn" onclick="generateQuote()">
+        <img src="./icon-dice.svg" alt="dice-icon" />
+      </div>
     </main>
     <script src="./main.js"></script>
   </body>
